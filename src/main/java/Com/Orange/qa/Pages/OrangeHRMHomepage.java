@@ -39,6 +39,7 @@ public class OrangeHRMHomepage extends TestBase{
 		SearchButton.click();		
 		Thread.sleep(3000);
 		return Record.isDisplayed();
+		Thread.sleep(2000);
 	}
 	
 }
